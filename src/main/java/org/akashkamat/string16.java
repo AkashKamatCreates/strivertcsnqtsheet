@@ -11,8 +11,7 @@ public class string16 {
         for(int i=0; i<s.length(); i++){
             frequency[s.charAt(i)]++;
         }
-        continue contineu
-
+        
 
         return (char)(max);
     }
