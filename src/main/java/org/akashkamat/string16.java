@@ -13,6 +13,6 @@ public class string16 {
         }
         
 
-        return (char)(max);
+        
     }
 }
