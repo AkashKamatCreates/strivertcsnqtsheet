@@ -12,7 +12,5 @@ public class string16 {
             frequency[s.charAt(i)]++;
         }
         
-
-        
     }
 }
