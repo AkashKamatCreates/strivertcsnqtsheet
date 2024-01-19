@@ -10,6 +10,8 @@ public class array2 {
         return max;
     }
 
+
+
     public static void main(String[] args) {
         int[] arr = {12, 345, 1323, 45, 123, 532};
         System.out.println(LargestElement(arr));
