@@ -29,6 +29,7 @@ public class string1 {
         }
         return true;
     }
+    
 
     static boolean ispalindromerecursive(int i, String s){
         if(i>=s.length()/2) return true;
