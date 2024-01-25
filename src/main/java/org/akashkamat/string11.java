@@ -3,12 +3,12 @@ package org.akashkamat;
 public class string11 {
     public static void main(String args[]){
         String str = "akashkamatstringszebra";
-        String str1 = "a quick brown fox jumps over the lazy dog";
+        String str1 = "a quick brown fox jumps over the lazy dog"; //includes all letters of the alphabet
         Printfrequency(str);
         System.out.println();
         Printfrequency(str1);
     }
-    static void Printfrequency(String s){
+    static void Printfrequency(String s){ 
         int[] frequency = new int[26];
         for(int i=0; i<s.length(); i++){
             if(s.charAt(i)!=' '){
