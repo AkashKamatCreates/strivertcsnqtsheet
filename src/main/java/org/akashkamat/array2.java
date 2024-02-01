@@ -1,7 +1,7 @@
 package org.akashkamat;
 
 public class array2 {
-    static int LargestElement(int[] arr){
+    public static int LargestElement(int[] arr){
         int n = arr.length;
         int max = Integer.MIN_VALUE;
         for (int i=0; i<n; i++){

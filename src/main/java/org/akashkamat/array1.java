@@ -2,7 +2,6 @@ package org.akashkamat;
 
 public class array1 {
     public static void main(String args[]) {
-
         int arr1[] =  {2,5,1,3,0};
         System.out.println("The smallest element in the array is: "+SmallestElement(arr1));
 
