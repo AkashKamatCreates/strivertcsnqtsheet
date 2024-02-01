@@ -6,3 +6,5 @@ strings: solve again
 - string24
 - string27
 - string28
+
+Try Array questions with collection framework 
