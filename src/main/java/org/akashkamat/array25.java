@@ -19,7 +19,7 @@ public class array25 {
 
     }
 
-    public static boolean isSubset(int[] arr1, int m, int[] arr2, int n){
+    private static boolean isSubset(int[] arr1, int m, int[] arr2, int n){
         HashMap<Integer, Boolean> map = new HashMap<>();
         for(int i=0; i<n; i++){
             map.put(arr2[i], true);
