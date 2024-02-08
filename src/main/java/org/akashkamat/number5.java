@@ -2,31 +2,33 @@ package org.akashkamat;
 
 public class number5 {
     public static void main(String[] args) {
-        int n = 123;
+        int n = 100;
         int m = 153;
-
+        ArmStrongNumber(n);
+        ArmStrongNumber(m);
     }
     public static void ArmStrongNumber(int n){
-        int temp = 0;
+        int temp = n;
+        int original = n;
         int size = 0;
-        while(n>0){
+        while(temp>0){
             size++;
+            temp/=10;
+        }
+
+        int prod = 0;
+
+        while(n>0){
+            prod+=Math.pow((n%10), size);
             n=n/10;
         }
 
-        int prod =0;
 
-        for(int i=0; i<size; i++){
-            prod = prod * (n%10);
-
-        }
-
-
-
-        if(temp==n){
-            System.out.println("Number "+n+" is an Armstrong number");
+//        System.out.println(prod);
+        if(prod==original){
+            System.out.println("Number "+original+" is an Armstrong number");
         }else{
-            System.out.println("Number "+n+" is NOT an Armstrong number");
+            System.out.println("Number "+original+" is NOT an Armstrong number");
         }
     }
 }
