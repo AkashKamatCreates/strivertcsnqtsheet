@@ -14,7 +14,7 @@ public class number18 {
         }
         return prod;
     }
-    private static int FactorialRecursive(int n){
+    protected static int FactorialRecursive(int n){
         if(n<1){
             return 1;
         }else{
