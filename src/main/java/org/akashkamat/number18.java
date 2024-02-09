@@ -6,7 +6,7 @@ public class number18 {
         System.out.println(Factorial(n));
         System.out.println(FactorialRecursive(n));
     }
-    private static int Factorial(int n){
+    protected static int Factorial(int n){
         int prod = 1;
         while(n>0){
             prod*=n;
