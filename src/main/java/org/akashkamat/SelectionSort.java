@@ -1,22 +1,29 @@
 package org.akashkamat;
 
-import static org.akashkamat.SwapClass.SwapArrayElements;
+import java.util.Arrays;
 
+import static org.akashkamat.SwapClass.SwapArrayElements;
+import static org.akashkamat.BubbleSort.BubbleSort;
 public class SelectionSort {
     public static void main(String[] args) {
-        int[] arr = {13, 46, 24, 52, 20, 9};
+    }
+
+    public static void SelectionSort(int[] arr){
         int n = arr.length;
-
-
-
-        for(int i=0; i<n-2; i++){
+        for(int i = 0; i < n - 1; i++) {
             int min = i;
-            for(int j=i; j<n-1; j++){
-                if(arr[min]>arr[j]){
+            for(int j = i + 1; j < n; j++) {
+                if(arr[j] < arr[min]) {
                     min = j;
                 }
-                SwapArrayElements(arr, j, min);
             }
+            SwapArrayElements(arr, min, i);
         }
+
+        System.out.println("Selection Sort: ");
+        for(int element : arr) {
+            System.out.print(element + " ");
+        }
+        System.out.println();
     }
 }
