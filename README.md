@@ -3,7 +3,8 @@
 - Source: https://takeuforward.org/interviews/tcs-nqt-coding-sheet-tcs-coding-questions/
 solve:
 - problems on number system
-solve again 
+
+solve again:
 - string24
 - string27
 - string28
