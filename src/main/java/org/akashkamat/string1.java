@@ -36,7 +36,6 @@ public class string1 {
         if(s.charAt(i)!=s.charAt(s.length()-1-i))return false;
         return ispalindromerecursive(i+1, s);
 
-
 //        return true;
     }
 }
