@@ -4,10 +4,5 @@
 solve:
 - problems on number system
 
-solve again:
-- string24
-- string27
-- string28
-- array23
 
 Try Array questions with collection framework 
