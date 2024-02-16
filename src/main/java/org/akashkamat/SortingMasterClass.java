@@ -1,5 +1,7 @@
+
 package org.akashkamat;
 
+//import all sorting functions.
 import static org.akashkamat.SelectionSort.SelectionSort;
 import static org.akashkamat.BubbleSort.BubbleSort;
 import static org.akashkamat.InsertionSort.InsertionSort;
