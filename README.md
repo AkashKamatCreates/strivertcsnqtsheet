@@ -3,6 +3,3 @@
 - Source: https://takeuforward.org/interviews/tcs-nqt-coding-sheet-tcs-coding-questions/
 solve:
 - problems on number system
-
-
-Try Array questions with collection framework 
